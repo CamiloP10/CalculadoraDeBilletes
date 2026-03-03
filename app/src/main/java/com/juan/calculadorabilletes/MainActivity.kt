@@ -85,7 +85,7 @@ fun CalculadoraBilletesApp() {
                     ) {
                         Icon(Icons.Default.Refresh, contentDescription = null)
                         Spacer(modifier = Modifier.width(8.dp))
-                        Text("REINICIAR VALORES")
+                        Text("Borrar Datos")
                     }
                     Spacer(modifier = Modifier.height(16.dp))
                 }
