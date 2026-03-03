@@ -99,7 +99,7 @@ fun CalculadoraBilletesApp() {
                     modifier = Modifier.padding(20.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Text("TOTAL GENERAL", style = MaterialTheme.typography.labelLarge)
+                    Text("TOTAL", style = MaterialTheme.typography.labelLarge)
                     Text(
                         text = "$ ${String.format("%,d", granTotal)}",
                         style = MaterialTheme.typography.headlineLarge,
